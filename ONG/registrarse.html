@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Stilo.css">
+</head>
+<body>
+    <main>
+       <form>
+            <div class="IniciarSesion">
+                <a href="IniciarSesion.html"><img src="foto/x.png" alt="Salida" class="exit"></a>
+                <div class="IniciarSesionContenido">
+                    <div class="Rellenar">
+                        <form>
+                            <label for="email">Nombre</label> <br/>
+                            <input type="text" id="email" name="formulario" required> <br/>
+                            
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" name="formulario" required> <br/>
+
+                            <label for="Tractament">Tractament</label> <br/>
+                            <select id="Tractament" name="formulario" required>
+                                <option value="Sr" name="formulario1"> Sr </option>
+                                <option value="Sra" name="formulario1"> Sra</option>
+                                <option value="Null" name="formulario1"> Sense Tractament</option>
+                            </select> <br/>
+
+                            <label for="Confirmar">Email</label> <br/>
+                            <input type="email" id="Confirmar" name="formulario" required> <br/>
+
+                            <label for="Nacimiento">Año de nacimiento</label> <br/>
+                            <input type="date" id="fecha"> <br/>
+                            <label for="Contraseña">Contraseña</label> <br/>
+                            <input type="password" id="Contraseña" name="formulario" required> <br/>
+                            <label for="Confirmar">Confirmar Contraseña</label> <br/>
+                            <input type="password" id="Confirmar" name="formulario" required> <br/>
+                        </form>
+                    </div>
+                </div>
+                <div class="TituloIniciarSesion">
+                    <h1>Darse de alta en TreeCorp</h1>
+                    <input type="submit" value="Enviar" id ="submitir">
+                </div>
+
+
+            <div class="IniciarSesionContenido">
+                <div class="Rellenar">
+                    <div>
+                        <h1>Seleciona Tematicas</h1>
+                        <div class="TematicasTREECORP">
+                            <div>
+                                <label >reforestación / replantacion</label> <br/>
+                                <input type="checkbox" name="formulario" id="Temas"> <br/>
+                                <label >Acciones Climaticas</label> <br/>
+                                <input type="checkbox" name="formulario" id="Temas"> <br/>
+                            </div>
+                            <div>
+                                <label >Restauracion de ecosistema</label> <br/>
+                                <input type="checkbox" name="formulario" id="Temas"> <br/>
+                                <label >Investigacion Cientfica</label> <br/>
+                                <input type="checkbox" name="formulario" id="Temas"> <br/>
+                            </div>
+                            <div>
+                                <label>Sostenibilidad urbana</label> <br/>
+                                <input type="checkbox" name="formulario" id="Temas"> <br/>
+                                <label >Educacion Ambientañ</label> <br/>
+                                <input type="checkbox" name="formulario" id="Temas"> <br/>
+                            </div>
+                        </div>
+                        <label for="Quota">Quota</label> <br/>
+                        <select id="Quota" name="formulario" required>
+                            <option value="10$" name="formulario1"> 10$ </option>
+                            <option value="20$" name="formulario1"> 20$</option>
+                            <option value="50%" name="formulario1"> 50$</option>
+                        </select> <br/>
+                        <label for="Privacidad">Acepto la politica y privacidad de TREECORP</label>
+                        <input  type="checkbox" id="Privacidad" name="formulario" required>
+                    </div>
+
+                </div>
+            </div>
+
+            
+
+        </div>
+       </form>
+    </main>
+</body>
+</html>
